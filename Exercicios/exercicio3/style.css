@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 header {
     background-color: yellowgreen;
@@ -13,5 +14,16 @@ header {
 }
 #container {
     font-family: sans-serif;
-    padding: 0 15px;
+    overflow: hidden;
+    text-align: center;
+    background: tomato;
+    border: 0px;
+    display: table;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+       
+}
+p{
+    text-align: center;
 }
