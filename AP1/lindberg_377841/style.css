@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav-superior{
+    background-color: papayawhip;
+    overflow: auto;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.dropdown{
+    display: inline-block;
+}
+.dropdown-button, .dropdown-content ul li{
+    padding: 14px;
+    cursor: pointer;
+}
+.dropdown-content{
+    visibility: hidden;
+    max-height: 0px;
+    position: absolute;
+    background-color: white;
+    transition: all 200ms;
+    overflow: hidden;
+    
+}
+.dropdown:hover .dropdown-content{
+    visibility: visible;
+    
+    max-height: 400px;
+}
+.dropdown-button:hover{
+    background-color: blueviolet;
+}
+
+.galeria{
+    height: 900px;
+    width: 100%;
+    background-color: pink;
+    /* overflow: hidden; */
+}
+.coluna1, .coluna2{
+    width: 50%;
+    height: 900px;
+    background-color: tomato;
+    display: inline-block;
+    box-sizing: border-box
+}
+.coluna2{
+    position: absolute
+}
+.img-html, .img-css{
+    width: 100%;
+    height: 100%;
+}
+.img-css:hover{
+    transform: scale(1.15, 1.15);
+    transition: all 400ms;
+    box-sizing: border-box;
+}
+.text-html{
+    width: 50%;
+    height: 60px;
+    background-color: black;
+    position: absolute;
+    bottom: -295px;
+    opacity: 0.51;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+.linha1{
+    height: 50%;
+    width: 100%;
+    background-color: red;
+}
+.linha2{
+    height: 50%;
+    width: 100%;
+}
+.gradiente{
+    text-align: center;
+    background: radial-gradient(#aaa, white);
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    position: relative;
+
+}
+h2{
+    position: absolute;
+    left: 35%;
+    top: 47%;
+
+}
+
+
+
+
+
